@@ -1,0 +1,1194 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 360px) {
+  .BgPrincipal {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+  }
+  .BgPrincipal .imgPrincipal {
+    background-image: url(./assets/banner_fondo_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-left: -170px;
+  }
+  .BgPrincipal .imgPrincipal h3 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-left: 80px;
+    font-weight: bolder;
+    margin-top: 400px;
+    font-family: "Raleway", sans-serif;
+    text-shadow: 2px 2px 2px black;
+  }
+  .BgPrincipal .imgPrincipal h1 {
+    text-align: center;
+    color: white;
+    font-size: 85px;
+    font-weight: bold;
+    margin-left: 165px;
+    font-family: "Parisienne", cursive;
+    margin-top: -15px;
+    margin-bottom: -15px;
+    text-shadow: 2px 2px 2px black;
+  }
+  .BgPrincipal .imgPrincipal h2 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 240px;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 0.2cm;
+    text-shadow: 2px 2px 2px black;
+  }
+  .BgPrincipal .arrow {
+    opacity: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: 280px;
+    transform-origin: 50% 50%;
+    transform: translate3d(-50%, -50%, 0);
+  }
+  .BgPrincipal .arrow-first {
+    -webkit-animation: arrow-movement 2s ease-in-out infinite;
+            animation: arrow-movement 2s ease-in-out infinite;
+  }
+  .BgPrincipal .arrow-second {
+    -webkit-animation: arrow-movement 2s 1s ease-in-out infinite;
+            animation: arrow-movement 2s 1s ease-in-out infinite;
+  }
+  .BgPrincipal .arrow:before,
+.BgPrincipal .arrow:after {
+    background: #fff;
+    content: "";
+    display: block;
+    height: 3px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+  }
+  .BgPrincipal .arrow:before {
+    transform: rotate(45deg) translateX(-23%);
+    transform-origin: top left;
+  }
+  .BgPrincipal .arrow:after {
+    transform: rotate(-45deg) translateX(23%);
+    transform-origin: top right;
+  }
+  @-webkit-keyframes arrow-movement {
+    0% {
+      opacity: 0;
+      top: 45%;
+    }
+    70% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  @keyframes arrow-movement {
+    0% {
+      opacity: 0;
+      top: 45%;
+    }
+    70% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  .ContadorDias {
+    display: flex;
+    flex-direction: column;
+    background-color: #47bd78;
+    height: 15vh;
+    width: 100%;
+    justify-content: center;
+  }
+  .ContadorDias h3 {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+  }
+
+  .CeremoniaFiesta {
+    background-color: white;
+    height: 60vh;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .CeremoniaFiesta img {
+    height: 70px;
+    width: 70px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+  .CeremoniaFiesta h3 {
+    color: black;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+  }
+  .CeremoniaFiesta p {
+    color: black;
+    font-size: 15px;
+  }
+  .CeremoniaFiesta .botoncito2 {
+    background-color: #47bd78;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    justify-content: center;
+    border-radius: 2em;
+    width: 250px;
+  }
+
+  .nosotros h3 {
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+
+  .galeria {
+    display: flex;
+    width: 88%;
+    margin-top: 25px;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    z-index: 1;
+  }
+
+  .galeria .foto {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    margin-bottom: 35px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.75);
+    transition: 0.6s ease;
+  }
+
+  .galeria .foto:hover {
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+  }
+
+  .foto img {
+    width: 250px;
+    height: 250px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 5px;
+  }
+
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to top, #cfd9df96 0%, #e2ebf0a1 100%);
+    width: 100%;
+    height: 0;
+    transition: 0.55s ease;
+    overflow: hidden;
+  }
+
+  .overlay h2 {
+    color: #fff;
+    font-size: 25px;
+    font-family: "Josefin Sans", sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+  }
+
+  .foto:hover .overlay {
+    height: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  /*---------------------*/
+  .contenedor-modal.active {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
+
+  .contenedor-modal.active img {
+    z-index: 3;
+    width: 400px;
+    height: 400px;
+  }
+
+  .contenedor-modal.active::after {
+    position: fixed;
+    content: "";
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(211, 211, 211, 0.459);
+  }
+
+  .Regalo {
+    background-color: #47bd78;
+    height: 40vh;
+    width: 100%;
+    text-align: center;
+  }
+  .Regalo img {
+    height: 70px;
+    width: 70px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+  .Regalo p {
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+  }
+  .Regalo .botoncito {
+    background-color: white;
+    color: #47bd78;
+    font-family: "Raleway", sans-serif;
+    justify-content: center;
+    border-radius: 2em;
+    width: 250px;
+  }
+
+  .datosBancarios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #47bd78;
+    height: 40vh;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: "Raleway", sans-serif;
+  }
+  .datosBancarios span {
+    font-family: "Raleway", sans-serif;
+    font-weight: bolder;
+    color: white;
+  }
+
+  .ConfirmarAsistencia {
+    height: 40vh;
+    width: 100%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .ConfirmarAsistencia h3 {
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-bottom: 15px;
+    font-family: "Raleway", sans-serif;
+  }
+  .ConfirmarAsistencia p {
+    color: black;
+    margin-bottom: 25px;
+  }
+  .ConfirmarAsistencia .w3-button {
+    border-radius: 2em;
+    background-color: #47bd78;
+    width: 220px;
+    text-transform: uppercase;
+  }
+
+  .DressCode {
+    height: 20vh;
+    width: 100%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: teal;
+  }
+  .DressCode h3 {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    font-family: "Raleway", sans-serif;
+  }
+  .DressCode p {
+    color: white;
+    font-family: "Raleway", sans-serif;
+  }
+
+  .spotifyLista {
+    height: 50vh;
+    width: 100%;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+  }
+  .spotifyLista img {
+    height: 70px;
+    width: 70px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+  .spotifyLista h2 {
+    color: black;
+    font-weight: bolder;
+    text-transform: uppercase;
+  }
+  .spotifyLista p {
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .spotifyLista .w3-button {
+    border-radius: 2em;
+    background-color: #47bd78;
+    width: 250px;
+    text-transform: uppercase;
+    color: white;
+  }
+
+  .gracias {
+    height: 10vh;
+    width: 100%;
+    background-color: #47bd78;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .gracias h3 {
+    text-align: center;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .BgPrincipal {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+  }
+  .BgPrincipal .imgPrincipal {
+    background-image: url(./assets/banner_fondo_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-left: -170px;
+  }
+  .BgPrincipal .imgPrincipal h3 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-left: 80px;
+    font-weight: bolder;
+    margin-top: 400px;
+    font-family: "Raleway", sans-serif;
+    text-shadow: 2px 2px 2px black;
+  }
+  .BgPrincipal .imgPrincipal h1 {
+    text-align: center;
+    color: white;
+    font-size: 85px;
+    font-weight: bold;
+    margin-left: 165px;
+    font-family: "Parisienne", cursive;
+    margin-top: -15px;
+    margin-bottom: -15px;
+    text-shadow: 2px 2px 2px black;
+  }
+  .BgPrincipal .imgPrincipal h2 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 240px;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 0.2cm;
+    text-shadow: 2px 2px 2px black;
+  }
+  .BgPrincipal .arrow {
+    opacity: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: 280px;
+    transform-origin: 50% 50%;
+    transform: translate3d(-50%, -50%, 0);
+  }
+  .BgPrincipal .arrow-first {
+    -webkit-animation: arrow-movement 2s ease-in-out infinite;
+            animation: arrow-movement 2s ease-in-out infinite;
+  }
+  .BgPrincipal .arrow-second {
+    -webkit-animation: arrow-movement 2s 1s ease-in-out infinite;
+            animation: arrow-movement 2s 1s ease-in-out infinite;
+  }
+  .BgPrincipal .arrow:before,
+.BgPrincipal .arrow:after {
+    background: #fff;
+    content: "";
+    display: block;
+    height: 3px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+  }
+  .BgPrincipal .arrow:before {
+    transform: rotate(45deg) translateX(-23%);
+    transform-origin: top left;
+  }
+  .BgPrincipal .arrow:after {
+    transform: rotate(-45deg) translateX(23%);
+    transform-origin: top right;
+  }
+  @-webkit-keyframes arrow-movement {
+    0% {
+      opacity: 0;
+      top: 45%;
+    }
+    70% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  @keyframes arrow-movement {
+    0% {
+      opacity: 0;
+      top: 45%;
+    }
+    70% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  .ContadorDias {
+    display: flex;
+    flex-direction: column;
+    background-color: #47bd78;
+    height: 15vh;
+    width: 100%;
+    justify-content: center;
+  }
+  .ContadorDias h3 {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+  }
+
+  .CeremoniaFiesta {
+    background-color: white;
+    height: 60vh;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .CeremoniaFiesta img {
+    height: 70px;
+    width: 70px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+  .CeremoniaFiesta h3 {
+    color: black;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+  }
+  .CeremoniaFiesta p {
+    color: black;
+    font-size: 15px;
+  }
+  .CeremoniaFiesta .botoncito2 {
+    background-color: #47bd78;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    justify-content: center;
+    border-radius: 2em;
+    width: 250px;
+  }
+
+  .nosotros h3 {
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+
+  .galeria {
+    display: flex;
+    width: 88%;
+    margin-top: 25px;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    z-index: 1;
+  }
+
+  .galeria .foto {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    margin-bottom: 35px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.75);
+    transition: 0.6s ease;
+  }
+
+  .galeria .foto:hover {
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+  }
+
+  .foto img {
+    width: 250px;
+    height: 250px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 5px;
+  }
+
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to top, #cfd9df96 0%, #e2ebf0a1 100%);
+    width: 100%;
+    height: 0;
+    transition: 0.55s ease;
+    overflow: hidden;
+  }
+
+  .overlay h2 {
+    color: #fff;
+    font-size: 25px;
+    font-family: "Josefin Sans", sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+  }
+
+  .foto:hover .overlay {
+    height: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  /*---------------------*/
+  .contenedor-modal.active {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
+
+  .contenedor-modal.active img {
+    z-index: 3;
+    width: 400px;
+    height: 400px;
+  }
+
+  .contenedor-modal.active::after {
+    position: fixed;
+    content: "";
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(211, 211, 211, 0.459);
+  }
+
+  .Regalo {
+    background-color: #47bd78;
+    height: 40vh;
+    width: 100%;
+    text-align: center;
+  }
+  .Regalo img {
+    height: 70px;
+    width: 70px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+  .Regalo p {
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+  }
+  .Regalo .botoncito {
+    background-color: white;
+    color: #47bd78;
+    font-family: "Raleway", sans-serif;
+    justify-content: center;
+    border-radius: 2em;
+    width: 250px;
+  }
+
+  .datosBancarios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #47bd78;
+    height: 40vh;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: "Raleway", sans-serif;
+  }
+  .datosBancarios span {
+    font-family: "Raleway", sans-serif;
+    font-weight: bolder;
+    color: white;
+  }
+
+  .ConfirmarAsistencia {
+    height: 40vh;
+    width: 100%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .ConfirmarAsistencia h3 {
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-bottom: 15px;
+    font-family: "Raleway", sans-serif;
+  }
+  .ConfirmarAsistencia p {
+    color: black;
+    margin-bottom: 25px;
+  }
+  .ConfirmarAsistencia .w3-button {
+    border-radius: 2em;
+    background-color: #47bd78;
+    width: 220px;
+    text-transform: uppercase;
+  }
+
+  .DressCode {
+    height: 20vh;
+    width: 100%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: teal;
+  }
+  .DressCode h3 {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    font-family: "Raleway", sans-serif;
+  }
+  .DressCode p {
+    color: white;
+    font-family: "Raleway", sans-serif;
+  }
+
+  .spotifyLista {
+    height: 50vh;
+    width: 100%;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+  }
+  .spotifyLista img {
+    height: 70px;
+    width: 70px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+  .spotifyLista h2 {
+    color: black;
+    font-weight: bolder;
+    text-transform: uppercase;
+  }
+  .spotifyLista p {
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .spotifyLista .w3-button {
+    border-radius: 2em;
+    background-color: #47bd78;
+    width: 250px;
+    text-transform: uppercase;
+    color: white;
+  }
+
+  .gracias {
+    height: 10vh;
+    width: 100%;
+    background-color: #47bd78;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .gracias h3 {
+    text-align: center;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .BgPrincipal {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+  }
+  .BgPrincipal .imgPrincipal {
+    background-image: url(./assets/banner_fondo_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-left: -170px;
+  }
+  .BgPrincipal .imgPrincipal h3 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-left: 80px;
+    font-weight: bolder;
+    margin-top: 400px;
+    font-family: "Raleway", sans-serif;
+    text-shadow: 2px 2px 2px black;
+  }
+  .BgPrincipal .imgPrincipal h1 {
+    text-align: center;
+    color: white;
+    font-size: 85px;
+    font-weight: bold;
+    margin-left: 165px;
+    font-family: "Parisienne", cursive;
+    margin-top: -15px;
+    margin-bottom: -15px;
+    text-shadow: 2px 2px 2px black;
+  }
+  .BgPrincipal .imgPrincipal h2 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 240px;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 0.2cm;
+    text-shadow: 2px 2px 2px black;
+  }
+  .BgPrincipal .arrow {
+    opacity: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: 280px;
+    transform-origin: 50% 50%;
+    transform: translate3d(-50%, -50%, 0);
+  }
+  .BgPrincipal .arrow-first {
+    -webkit-animation: arrow-movement 2s ease-in-out infinite;
+            animation: arrow-movement 2s ease-in-out infinite;
+  }
+  .BgPrincipal .arrow-second {
+    -webkit-animation: arrow-movement 2s 1s ease-in-out infinite;
+            animation: arrow-movement 2s 1s ease-in-out infinite;
+  }
+  .BgPrincipal .arrow:before,
+.BgPrincipal .arrow:after {
+    background: #fff;
+    content: "";
+    display: block;
+    height: 3px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+  }
+  .BgPrincipal .arrow:before {
+    transform: rotate(45deg) translateX(-23%);
+    transform-origin: top left;
+  }
+  .BgPrincipal .arrow:after {
+    transform: rotate(-45deg) translateX(23%);
+    transform-origin: top right;
+  }
+  @-webkit-keyframes arrow-movement {
+    0% {
+      opacity: 0;
+      top: 45%;
+    }
+    70% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  @keyframes arrow-movement {
+    0% {
+      opacity: 0;
+      top: 45%;
+    }
+    70% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  .ContadorDias {
+    display: flex;
+    flex-direction: column;
+    background-color: #47bd78;
+    height: 15vh;
+    width: 100%;
+    justify-content: center;
+  }
+  .ContadorDias h3 {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+  }
+
+  .CeremoniaFiesta {
+    background-color: white;
+    height: 60vh;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .CeremoniaFiesta img {
+    height: 70px;
+    width: 70px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+  .CeremoniaFiesta h3 {
+    color: black;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+  }
+  .CeremoniaFiesta p {
+    color: black;
+    font-size: 15px;
+  }
+  .CeremoniaFiesta .botoncito2 {
+    background-color: #47bd78;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    justify-content: center;
+    border-radius: 2em;
+    width: 250px;
+  }
+
+  .nosotros h3 {
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+
+  .galeria {
+    display: flex;
+    width: 88%;
+    margin-top: 25px;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    z-index: 1;
+  }
+
+  .galeria .foto {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    margin-bottom: 35px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.75);
+    transition: 0.6s ease;
+  }
+
+  .galeria .foto:hover {
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+  }
+
+  .foto img {
+    width: 250px;
+    height: 250px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 5px;
+  }
+
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to top, #cfd9df96 0%, #e2ebf0a1 100%);
+    width: 100%;
+    height: 0;
+    transition: 0.55s ease;
+    overflow: hidden;
+  }
+
+  .overlay h2 {
+    color: #fff;
+    font-size: 25px;
+    font-family: "Josefin Sans", sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+  }
+
+  .foto:hover .overlay {
+    height: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  /*---------------------*/
+  .contenedor-modal.active {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
+
+  .contenedor-modal.active img {
+    z-index: 3;
+    width: 400px;
+    height: 400px;
+  }
+
+  .contenedor-modal.active::after {
+    position: fixed;
+    content: "";
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(211, 211, 211, 0.459);
+  }
+
+  .Regalo {
+    background-color: #47bd78;
+    height: 40vh;
+    width: 100%;
+    text-align: center;
+  }
+  .Regalo img {
+    height: 70px;
+    width: 70px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+  .Regalo p {
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+  }
+  .Regalo .botoncito {
+    background-color: white;
+    color: #47bd78;
+    font-family: "Raleway", sans-serif;
+    justify-content: center;
+    border-radius: 2em;
+    width: 250px;
+  }
+
+  .datosBancarios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #47bd78;
+    height: 40vh;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: "Raleway", sans-serif;
+  }
+  .datosBancarios span {
+    font-family: "Raleway", sans-serif;
+    font-weight: bolder;
+    color: white;
+  }
+
+  .ConfirmarAsistencia {
+    height: 40vh;
+    width: 100%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .ConfirmarAsistencia h3 {
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-bottom: 15px;
+    font-family: "Raleway", sans-serif;
+  }
+  .ConfirmarAsistencia p {
+    color: black;
+    margin-bottom: 25px;
+  }
+  .ConfirmarAsistencia .w3-button {
+    border-radius: 2em;
+    background-color: #47bd78;
+    width: 220px;
+    text-transform: uppercase;
+  }
+
+  .DressCode {
+    height: 20vh;
+    width: 100%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: teal;
+  }
+  .DressCode h3 {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    font-family: "Raleway", sans-serif;
+  }
+  .DressCode p {
+    color: white;
+    font-family: "Raleway", sans-serif;
+  }
+
+  .spotifyLista {
+    height: 50vh;
+    width: 100%;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+  }
+  .spotifyLista img {
+    height: 70px;
+    width: 70px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+  .spotifyLista h2 {
+    color: black;
+    font-weight: bolder;
+    text-transform: uppercase;
+  }
+  .spotifyLista p {
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .spotifyLista .w3-button {
+    border-radius: 2em;
+    background-color: #569771;
+    width: 250px;
+    text-transform: uppercase;
+    color: white;
+  }
+
+  .gracias {
+    height: 10vh;
+    width: 100%;
+    background-color: #47bd78;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .gracias h3 {
+    text-align: center;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=styles.css.map */
