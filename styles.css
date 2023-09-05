@@ -31,7 +31,7 @@
     font-weight: bold;
     margin-top: 400px;
     font-family: "Raleway", sans-serif;
-    text-shadow: 2px 2px 2px rgb(3, 3, 3);
+    text-shadow: 2px 2px 2px black;
     text-decoration: solid;
   }
   .BgPrincipal .imgPrincipal h1 {
@@ -126,7 +126,7 @@
     justify-content: center;
   }
   .ContadorDias h3 {
-    color: white;
+    color: black;
     text-align: center;
     font-size: 25px;
     margin-bottom: 10px;
@@ -160,7 +160,7 @@
   }
   .CeremoniaFiesta .botoncito2 {
     background-color: rgb(5, 252, 157);
-    color: white;
+    color: black;
     font-family: "Raleway", sans-serif;
     justify-content: center;
     border-radius: 2em;
@@ -278,7 +278,7 @@
     margin-bottom: 10px;
   }
   .Regalo p {
-    color: white;
+    color: black;
     margin-top: 5px;
     margin-bottom: 25px;
     font-family: "Raleway", sans-serif;
@@ -301,7 +301,7 @@
     height: 40vh;
     width: 100%;
     text-align: center;
-    color: white;
+    color: black;
     font-family: "Raleway", sans-serif;
   }
   .datosBancarios span {
@@ -404,7 +404,7 @@
   }
   .gracias h3 {
     text-align: center;
-    color: white;
+    color: black;
     font-family: "Raleway", sans-serif;
     font-size: 20px;
     margin: 10px;
@@ -420,7 +420,7 @@
     text-align: center;
   }
   .BgPrincipal .imgPrincipal {
-    background-image: url(./assets/WhatsApp\ Image\ 2023-09-04\ at\ 20.35.25.jpeg);
+    background-image: url(./assets/aaaaa.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -817,7 +817,7 @@
     text-align: center;
   }
   .BgPrincipal .imgPrincipal {
-    background-image: url(./assets/WhatsApp\ Image\ 2023-09-04\ at\ 20.35.25.jpeg);
+    background-image: url(./assets/aaaaa.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
