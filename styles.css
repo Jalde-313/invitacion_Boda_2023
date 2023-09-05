@@ -14,29 +14,32 @@
     text-align: center;
   }
   .BgPrincipal .imgPrincipal {
-    background-image: url(./assets/banner_fondo_2.jpg);
+    background-image: url(./assets/aaaaa.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     margin-left: -170px;
+    background-position: 42% 42%;
+  
   }
   .BgPrincipal .imgPrincipal h3 {
     text-align: center;
-    color: white;
+    color: rgb(5, 252, 157);
     text-transform: uppercase;
     font-size: 22px;
-    margin-left: 80px;
-    font-weight: bolder;
+    margin-left: 170px;
+    font-weight: bold;
     margin-top: 400px;
     font-family: "Raleway", sans-serif;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 2px 2px 2px rgb(3, 3, 3);
+    text-decoration: solid;
   }
   .BgPrincipal .imgPrincipal h1 {
     text-align: center;
-    color: white;
+    color: rgb(5, 252, 157);
     font-size: 85px;
     font-weight: bold;
-    margin-left: 165px;
+    margin-left: 150px;
     font-family: "Parisienne", cursive;
     margin-top: -15px;
     margin-bottom: -15px;
@@ -44,14 +47,14 @@
   }
   .BgPrincipal .imgPrincipal h2 {
     text-align: center;
-    color: white;
+    color: rgb(5, 252,157);
     text-transform: uppercase;
     font-size: 24px;
     font-weight: bold;
-    margin-left: 240px;
+    margin-left: 180px;
     font-family: "Raleway", sans-serif;
     letter-spacing: 0.2cm;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 2px 2px 2px rgb(7, 0, 0);
   }
   .BgPrincipal .arrow {
     opacity: 0;
@@ -117,7 +120,7 @@
   .ContadorDias {
     display: flex;
     flex-direction: column;
-    background-color: #47bd78;
+    background-color: rgb(5, 252, 157);
     height: 15vh;
     width: 100%;
     justify-content: center;
@@ -153,9 +156,10 @@
   .CeremoniaFiesta p {
     color: black;
     font-size: 15px;
+    margin: 20px;
   }
   .CeremoniaFiesta .botoncito2 {
-    background-color: #47bd78;
+    background-color: rgb(5, 252, 157);
     color: white;
     font-family: "Raleway", sans-serif;
     justify-content: center;
@@ -169,6 +173,7 @@
     font-size: 25px;
     margin-bottom: 20px;
     text-transform: uppercase;
+    margin: 10px;
   }
 
   .galeria {
@@ -261,7 +266,7 @@
   }
 
   .Regalo {
-    background-color: #47bd78;
+    background-color: rgb(5, 252, 157);
     height: 40vh;
     width: 100%;
     text-align: center;
@@ -281,7 +286,7 @@
   }
   .Regalo .botoncito {
     background-color: white;
-    color: #47bd78;
+    color: rgb(5, 252, 157);
     font-family: "Raleway", sans-serif;
     justify-content: center;
     border-radius: 2em;
@@ -292,7 +297,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #47bd78;
+    background-color: rgb(5, 252, 157);
     height: 40vh;
     width: 100%;
     text-align: center;
@@ -322,11 +327,12 @@
   }
   .ConfirmarAsistencia p {
     color: black;
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
+    margin: 20px;
   }
   .ConfirmarAsistencia .w3-button {
     border-radius: 2em;
-    background-color: #47bd78;
+    background-color: rgb(5, 252, 157);
     width: 220px;
     text-transform: uppercase;
   }
@@ -351,6 +357,7 @@
   .DressCode p {
     color: white;
     font-family: "Raleway", sans-serif;
+    margin: 20px;
   }
 
   .spotifyLista {
@@ -371,15 +378,17 @@
     color: black;
     font-weight: bolder;
     text-transform: uppercase;
+    margin: 10px;
   }
   .spotifyLista p {
     color: black;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    /* margin-top: 15px;
+    margin-bottom: 15px; */
+    margin: 20px;
   }
   .spotifyLista .w3-button {
     border-radius: 2em;
-    background-color: #47bd78;
+    background-color: rgb(5, 252, 157);
     width: 250px;
     text-transform: uppercase;
     color: white;
@@ -388,7 +397,7 @@
   .gracias {
     height: 10vh;
     width: 100%;
-    background-color: #47bd78;
+    background-color: rgb(5, 252, 157);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -398,6 +407,7 @@
     color: white;
     font-family: "Raleway", sans-serif;
     font-size: 20px;
+    margin: 10px;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -410,11 +420,12 @@
     text-align: center;
   }
   .BgPrincipal .imgPrincipal {
-    background-image: url(./assets/banner_fondo_2.jpg);
+    background-image: url(./assets/WhatsApp\ Image\ 2023-09-04\ at\ 20.35.25.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     margin-left: -170px;
+    background-position: center center;
   }
   .BgPrincipal .imgPrincipal h3 {
     text-align: center;
@@ -513,7 +524,7 @@
   .ContadorDias {
     display: flex;
     flex-direction: column;
-    background-color: #47bd78;
+    background-color: rgb(5, 252, 157);
     height: 15vh;
     width: 100%;
     justify-content: center;
@@ -551,7 +562,7 @@
     font-size: 15px;
   }
   .CeremoniaFiesta .botoncito2 {
-    background-color: #47bd78;
+    background-color: rgb(5, 252, 157);
     color: white;
     font-family: "Raleway", sans-serif;
     justify-content: center;
@@ -657,7 +668,7 @@
   }
 
   .Regalo {
-    background-color: #47bd78;
+    background-color: rgb(5, 252, 157);
     height: 40vh;
     width: 100%;
     text-align: center;
@@ -677,7 +688,7 @@
   }
   .Regalo .botoncito {
     background-color: white;
-    color: #47bd78;
+    color: rgb(5, 252, 157);
     font-family: "Raleway", sans-serif;
     justify-content: center;
     border-radius: 2em;
@@ -688,7 +699,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #47bd78;
+    background-color: rgb(5, 252, 157);
     height: 40vh;
     width: 100%;
     text-align: center;
@@ -722,7 +733,7 @@
   }
   .ConfirmarAsistencia .w3-button {
     border-radius: 2em;
-    background-color: #47bd78;
+    background-color: rgb(5, 252, 157);
     width: 220px;
     text-transform: uppercase;
   }
@@ -775,7 +786,7 @@
   }
   .spotifyLista .w3-button {
     border-radius: 2em;
-    background-color: #47bd78;
+    background-color: rgb(5, 252, 157);
     width: 250px;
     text-transform: uppercase;
     color: white;
@@ -784,7 +795,7 @@
   .gracias {
     height: 10vh;
     width: 100%;
-    background-color: #47bd78;
+    background-color: rgb(5, 252, 157);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -806,11 +817,12 @@
     text-align: center;
   }
   .BgPrincipal .imgPrincipal {
-    background-image: url(./assets/banner_fondo_2.jpg);
+    background-image: url(./assets/WhatsApp\ Image\ 2023-09-04\ at\ 20.35.25.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     margin-left: -170px;
+    background-position: center center;
   }
   .BgPrincipal .imgPrincipal h3 {
     text-align: center;
@@ -909,7 +921,7 @@
   .ContadorDias {
     display: flex;
     flex-direction: column;
-    background-color: #47bd78;
+    background-color: rgb(5, 252, 157);
     height: 15vh;
     width: 100%;
     justify-content: center;
@@ -947,7 +959,7 @@
     font-size: 15px;
   }
   .CeremoniaFiesta .botoncito2 {
-    background-color: #47bd78;
+    background-color: rgb(5, 252, 157);
     color: white;
     font-family: "Raleway", sans-serif;
     justify-content: center;
@@ -1053,7 +1065,7 @@
   }
 
   .Regalo {
-    background-color: #47bd78;
+    background-color: rgb(5, 252, 157);
     height: 40vh;
     width: 100%;
     text-align: center;
@@ -1073,7 +1085,7 @@
   }
   .Regalo .botoncito {
     background-color: white;
-    color: #47bd78;
+    color: rgb(5, 252, 157);
     font-family: "Raleway", sans-serif;
     justify-content: center;
     border-radius: 2em;
@@ -1084,7 +1096,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #47bd78;
+    background-color: rgb(5, 252, 157);
     height: 40vh;
     width: 100%;
     text-align: center;
@@ -1118,7 +1130,7 @@
   }
   .ConfirmarAsistencia .w3-button {
     border-radius: 2em;
-    background-color: #47bd78;
+    background-color: rgb(5, 252, 157);
     width: 220px;
     text-transform: uppercase;
   }
@@ -1171,7 +1183,7 @@
   }
   .spotifyLista .w3-button {
     border-radius: 2em;
-    background-color: #569771;
+    background-color: rgb(5, 252, 157);
     width: 250px;
     text-transform: uppercase;
     color: white;
@@ -1180,7 +1192,7 @@
   .gracias {
     height: 10vh;
     width: 100%;
-    background-color: #47bd78;
+    background-color: rgb(5, 252, 157);
     display: flex;
     flex-direction: column;
     justify-content: center;
