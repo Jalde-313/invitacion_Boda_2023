@@ -286,7 +286,7 @@
   }
   .Regalo .botoncito {
     background-color: white;
-    color: rgb(5, 252, 157);
+    color: black;
     font-family: "Raleway", sans-serif;
     justify-content: center;
     border-radius: 2em;
@@ -429,7 +429,7 @@
   }
   .BgPrincipal .imgPrincipal h3 {
     text-align: center;
-    color: white;
+    color: rgb(5, 252, 157);
     text-transform: uppercase;
     font-size: 22px;
     margin-left: 80px;
@@ -440,7 +440,7 @@
   }
   .BgPrincipal .imgPrincipal h1 {
     text-align: center;
-    color: white;
+    color: rgb(5, 252, 157);
     font-size: 85px;
     font-weight: bold;
     margin-left: 165px;
@@ -451,7 +451,7 @@
   }
   .BgPrincipal .imgPrincipal h2 {
     text-align: center;
-    color: white;
+    color: rgb(5, 252, 157);
     text-transform: uppercase;
     font-size: 24px;
     font-weight: bold;
@@ -530,7 +530,7 @@
     justify-content: center;
   }
   .ContadorDias h3 {
-    color: white;
+    color: black;
     text-align: center;
     font-size: 25px;
     margin-bottom: 10px;
@@ -563,7 +563,7 @@
   }
   .CeremoniaFiesta .botoncito2 {
     background-color: rgb(5, 252, 157);
-    color: white;
+    color: black;
     font-family: "Raleway", sans-serif;
     justify-content: center;
     border-radius: 2em;
@@ -680,7 +680,7 @@
     margin-bottom: 10px;
   }
   .Regalo p {
-    color: white;
+    color: black;
     margin-top: 5px;
     margin-bottom: 25px;
     font-family: "Raleway", sans-serif;
@@ -688,7 +688,7 @@
   }
   .Regalo .botoncito {
     background-color: white;
-    color: rgb(5, 252, 157);
+    color: black;
     font-family: "Raleway", sans-serif;
     justify-content: center;
     border-radius: 2em;
@@ -703,13 +703,13 @@
     height: 40vh;
     width: 100%;
     text-align: center;
-    color: white;
+    color: black;
     font-family: "Raleway", sans-serif;
   }
   .datosBancarios span {
     font-family: "Raleway", sans-serif;
     font-weight: bolder;
-    color: white;
+    color: black;
   }
 
   .ConfirmarAsistencia {
@@ -802,7 +802,7 @@
   }
   .gracias h3 {
     text-align: center;
-    color: white;
+    color: black;
     font-family: "Raleway", sans-serif;
     font-size: 20px;
   }
@@ -826,7 +826,7 @@
   }
   .BgPrincipal .imgPrincipal h3 {
     text-align: center;
-    color: white;
+    color: rgb(5, 252, 157);
     text-transform: uppercase;
     font-size: 22px;
     margin-left: 80px;
@@ -837,7 +837,7 @@
   }
   .BgPrincipal .imgPrincipal h1 {
     text-align: center;
-    color: white;
+    color: rgb(5, 252, 157);
     font-size: 85px;
     font-weight: bold;
     margin-left: 165px;
@@ -848,7 +848,7 @@
   }
   .BgPrincipal .imgPrincipal h2 {
     text-align: center;
-    color: white;
+    color: rgb(5, 252, 157);
     text-transform: uppercase;
     font-size: 24px;
     font-weight: bold;
@@ -927,7 +927,7 @@
     justify-content: center;
   }
   .ContadorDias h3 {
-    color: white;
+    color: black;
     text-align: center;
     font-size: 25px;
     margin-bottom: 10px;
@@ -960,7 +960,7 @@
   }
   .CeremoniaFiesta .botoncito2 {
     background-color: rgb(5, 252, 157);
-    color: white;
+    color: black;
     font-family: "Raleway", sans-serif;
     justify-content: center;
     border-radius: 2em;
@@ -1077,7 +1077,7 @@
     margin-bottom: 10px;
   }
   .Regalo p {
-    color: white;
+    color: black;
     margin-top: 5px;
     margin-bottom: 25px;
     font-family: "Raleway", sans-serif;
@@ -1085,7 +1085,7 @@
   }
   .Regalo .botoncito {
     background-color: white;
-    color: rgb(5, 252, 157);
+    color: black;
     font-family: "Raleway", sans-serif;
     justify-content: center;
     border-radius: 2em;
@@ -1100,13 +1100,13 @@
     height: 40vh;
     width: 100%;
     text-align: center;
-    color: white;
+    color: black;
     font-family: "Raleway", sans-serif;
   }
   .datosBancarios span {
     font-family: "Raleway", sans-serif;
     font-weight: bolder;
-    color: white;
+    color: black;
   }
 
   .ConfirmarAsistencia {
@@ -1199,7 +1199,7 @@
   }
   .gracias h3 {
     text-align: center;
-    color: white;
+    color: black;
     font-family: "Raleway", sans-serif;
     font-size: 20px;
   }
